@@ -134,6 +134,7 @@ def plus(number1=None,number2=None,toSymbol=None,fromSymbol=None,Number=None):
 				for index in range(len(result)-len(number1_string_full)):
 					number1_string_full=' '+number1_string_full;
 					number2_string_full=' '+number2_string_full;
+			print('Система числення: '+system_string)
 			print(number1_string_full);
 			print('+');
 			print(number2_string_full);
@@ -205,6 +206,7 @@ def minus(number1=None,number2=None,toSymbol=None,fromSymbol=None,Number=None):
 				for index in range(len(number1_string_full)-len(result)):
 					result=' '+result;
 					result=' '+result;
+			print('Система числення: '+system_string)
 			print(number1_string_full);
 			print('-');
 			print(number2_string_full);
