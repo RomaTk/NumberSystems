@@ -147,7 +147,7 @@ def compare(number1_string='12.3',number2_string='18.5'):
 		return '='
 		
 	
-def create_number_from_string(number_string='12.12',system=1):
+def create_number_from_string(number_string='12.12',system=3):
 	number_array=number_string.split('.');
 	if len(number_array)<2:
 		number_array.append('0');
